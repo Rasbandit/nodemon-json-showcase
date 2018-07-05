@@ -13,3 +13,6 @@ properties that it can take,
 - watch: nodemon will only watch for changes in these folders
 - NODE_ENV: set the NODE_ENV process.env variable to development.
 - ext: file extensions that will be watched for changes
+
+Alternatively the config object can be put in package.json associated with a "nodemonConfig" key.
+[nodemon docs](https://github.com/remy/nodemon#packagejson)
